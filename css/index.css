@@ -1,0 +1,57 @@
+.portfolio-item:hover{
+	cursor: pointer;
+}
+.no_border_img{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.titleColor{
+	color: #101010;
+	font-size: 20px;
+}
+
+dd{
+	color: #1f1f1f;
+}
+
+.VivaTimeline dl dd.pos-left .events:before {
+    right: -12px;
+    border-color: transparent transparent transparent #f0f0f0;
+}
+.VivaTimeline dl dd.pos-right .events:before {
+    left: -12px;
+    border-color: transparent #f0f0f0 transparent transparent
+}
+.VivaTimeline dl dd .events {
+    position: relative;
+    width: 47%;
+    padding: 10px 0 0;
+    margin-top: 31px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px
+}
+.events{
+	box-shadow: 0px 6px 10px rgb(153,153,153,0.3);
+}
+
+.titleBoxShadow{
+	box-shadow: 0px 6px 12px rgb(170,170,170,0.2);
+	border: none;
+}
+.portfolio-item:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 4px 6px rgb(180,180,180,1);
+}
+.graphic,.ui,.onlineRetailers{
+	padding-bottom: 6px;
+}
+
+/*img {background-image: url(img/loading.gif) no-repeat;}*/
